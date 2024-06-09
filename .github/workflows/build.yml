@@ -1,4 +1,5 @@
 on:
+  workflow_dispatch: # 手动触发
   watch:
     types: started
 jobs:
