@@ -12,6 +12,17 @@ CONFIG_PACKAGE_luci-app-diskman=y
 CONFIG_PACKAGE_luci-app-diskman_INCLUDE_btrfs_progs=y
 CONFIG_PACKAGE_luci-app-diskman_INCLUDE_lsblk=y
 CONFIG_PACKAGE_smartmontools=y
+CONFIG_PACKAGE_kmod-tcp-bbr=y
+CONFIG_PACKAGE_kmod-tun=y
+CONFIG_PACKAGE_kmod-inet-diag=y
+CONFIG_PACKAGE_kmod-nft-tproxy=y
+CONFIG_PACKAGE_kmod-nft-socket=y
+CONFIG_PACKAGE_ip-full=y
+CONFIG_PACKAGE_ca-bundle=y
+CONFIG_PACKAGE_v2raya=y
+CONFIG_PACKAGE_xray-core=y
+CONFIG_PACKAGE_luci-app-v2raya=y
+CONFIG_PACKAGE_luci-i18n-v2raya-zh-cn=y
 EOL
 # }}
 
