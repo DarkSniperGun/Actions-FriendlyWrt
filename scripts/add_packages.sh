@@ -23,6 +23,8 @@ CONFIG_PACKAGE_v2raya=y
 CONFIG_PACKAGE_xray-core=y
 CONFIG_PACKAGE_luci-app-v2raya=y
 CONFIG_PACKAGE_luci-i18n-v2raya-zh-cn=y
+CONFIG_PACKAGE_kmod-ipt-socket=y
+CONFIG_PACKAGE_iptables-mod-socket=y
 EOL
 # }}
 
