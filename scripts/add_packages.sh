@@ -11,6 +11,75 @@ CONFIG_PACKAGE_luci-app-diskman_INCLUDE_btrfs_progs=y
 CONFIG_PACKAGE_luci-app-diskman_INCLUDE_lsblk=y
 CONFIG_PACKAGE_luci-i18n-diskman-zh-cn=y
 CONFIG_PACKAGE_smartmontools=y
+# === 主流网卡支持 ===
+# Realtek 系（常见 USB 网卡）
+CONFIG_PACKAGE_kmod-rtl8188eu=y
+CONFIG_PACKAGE_kmod-rtl8192cu=y
+CONFIG_PACKAGE_kmod-rtl8192eu=y
+CONFIG_PACKAGE_kmod-rtl8812au-ct=y
+CONFIG_PACKAGE_kmod-rtl8821cu=y
+CONFIG_PACKAGE_kmod-rtl8xxxu=y
+
+# Mediatek 系（MT7601/MT7610 等）
+CONFIG_PACKAGE_kmod-mt7601u=y
+CONFIG_PACKAGE_kmod-mt76=y
+CONFIG_PACKAGE_kmod-mt76x2=y
+CONFIG_PACKAGE_kmod-mt76x0=y
+
+# Qualcomm Atheros 系（AR9271、QCA 系）
+CONFIG_PACKAGE_kmod-ath=y
+CONFIG_PACKAGE_kmod-ath9k=y
+CONFIG_PACKAGE_kmod-ath9k-htc=y
+CONFIG_PACKAGE_kmod-ath10k=y
+
+# Ralink（老芯片）
+CONFIG_PACKAGE_kmod-rt2800-usb=y
+CONFIG_PACKAGE_kmod-rt2x00-usb=y
+
+# Intel（主要用于 x86 平台）
+CONFIG_PACKAGE_kmod-iwlwifi=y
+CONFIG_PACKAGE_kmod-iwlwifi-firmware=y
+
+# USB 通用支持
+CONFIG_PACKAGE_kmod-usb-core=y
+CONFIG_PACKAGE_kmod-usb2=y
+CONFIG_PACKAGE_kmod-usb3=y
+CONFIG_PACKAGE_kmod-usb-net=y
+CONFIG_PACKAGE_kmod-usb-net-rtl8152=y
+CONFIG_PACKAGE_kmod-usb-net-rtl8150=y
+# === 主流翻墙软件 ===
+CONFIG_PACKAGE_luci-app-v2raya=y
+CONFIG_PACKAGE_v2raya=y
+CONFIG_PACKAGE_xray-core=y
+
+CONFIG_PACKAGE_luci-app-passwall=y
+CONFIG_PACKAGE_luci-i18n-v2raya-zh-cn=y
+CONFIG_PACKAGE_trojan-plus=y
+CONFIG_PACKAGE_brook=y
+
+CONFIG_PACKAGE_luci-app-ssr-plus=y
+CONFIG_PACKAGE_shadowsocks-libev-ss-local=y
+CONFIG_PACKAGE_shadowsocks-libev-ss-redir=y
+# DNS 优化（避免污染）
+CONFIG_PACKAGE_luci-app-smartdns=y
+CONFIG_PACKAGE_smartdns=y
+
+CONFIG_PACKAGE_kmod-tun=y
+CONFIG_PACKAGE_kmod-tcp-bbr=y
+CONFIG_PACKAGE_kmod-inet-diag=y
+CONFIG_PACKAGE_kmod-nft-tproxy=y
+CONFIG_PACKAGE_kmod-nft-socket=y
+CONFIG_PACKAGE_kmod-ipt-socket=y
+CONFIG_PACKAGE_iptables-mod-socket=y
+CONFIG_PACKAGE_ip-full=y
+CONFIG_PACKAGE_ca-bundle=y
+# 网络调试工具（如 ping、traceroute、nslookup）
+CONFIG_PACKAGE_iputils-ping=y
+CONFIG_PACKAGE_traceroute=y
+CONFIG_PACKAGE_bind-dig=y
+# 网络相关增强
+CONFIG_PACKAGE_dnsmasq-full=y
+CONFIG_PACKAGE_ipset=y
 EOL
 # }}
 
