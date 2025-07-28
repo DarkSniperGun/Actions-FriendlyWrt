@@ -93,6 +93,15 @@ CONFIG_PACKAGE_bind-dig=y
 # 网络相关增强
 CONFIG_PACKAGE_dnsmasq-full=y
 CONFIG_PACKAGE_ipset=y
+# aria2下载器及常用软件
+CONFIG_PACKAGE_htop=y
+CONFIG_PACKAGE_tcpdump=y
+CONFIG_PACKAGE_curl=y
+CONFIG_PACKAGE_wget=y
+CONFIG_PACKAGE_luci-app-aria2=y
+CONFIG_PACKAGE_aria2=y
+CONFIG_PACKAGE_luci-i18n-aria2-zh-cn=y
+
 EOL
 # }}
 
