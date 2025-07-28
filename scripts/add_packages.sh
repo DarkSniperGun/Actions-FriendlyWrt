@@ -47,6 +47,19 @@ CONFIG_PACKAGE_kmod-usb3=y
 CONFIG_PACKAGE_kmod-usb-net=y
 CONFIG_PACKAGE_kmod-usb-net-rtl8152=y
 CONFIG_PACKAGE_kmod-usb-net-rtl8150=y
+CONFIG_PACKAGE_kmod-usb-printer=y
+CONFIG_PACKAGE_kmod-usb-serial=y
+CONFIG_PACKAGE_kmod-usb-serial-ch341=y
+CONFIG_PACKAGE_kmod-usb-serial-pl2303=y
+# 存储扩展支持
+CONFIG_PACKAGE_kmod-fs-ext4=y
+CONFIG_PACKAGE_kmod-fs-vfat=y
+CONFIG_PACKAGE_kmod-fs-exfat=y
+CONFIG_PACKAGE_kmod-fs-ntfs3=y
+CONFIG_PACKAGE_mount-utils=y
+CONFIG_PACKAGE_block-mount=y
+CONFIG_PACKAGE_fdisk=y
+
 # === 主流翻墙软件 ===
 CONFIG_PACKAGE_luci-app-v2raya=y
 CONFIG_PACKAGE_v2raya=y
