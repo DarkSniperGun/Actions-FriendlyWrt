@@ -1,4 +1,4 @@
-# 使用 GitHub Actions 编译 FriendlyWrt
+# 魔改版FriendlyWrt内置主流翻墙软件，增加所有网卡芯片支持
 [English](README_en.md)
 ### 基本信息 
 - 用户名：root
